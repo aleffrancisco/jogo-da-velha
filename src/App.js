@@ -1,8 +1,20 @@
 import React from "react";
-import Header from "./components/Header";
+import "./App.css";
 
-function App() {
-  return <Header />;
-}
+import Input from "./objects/Input";
+import Label from "./objects/Label";
+import Header from "./components/Header";
+import Hashtag from "./components/Hashtag";
+
+const App = () => {
+  return (
+    <main className="app">
+      <Header />
+      <Hashtag />
+      <Input />
+      <Label content="Mostrar eventos" />
+    </main>
+  );
+};
 
 export default App;
