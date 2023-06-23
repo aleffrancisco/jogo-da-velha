@@ -3,6 +3,7 @@ import "./App.css";
 
 import Checkbox from "./objects/Checkbox";
 import About from "./objects/About";
+import AboutLink from "./objects/AboutLink";
 import Header from "./components/Header";
 import Hashtag from "./components/Hashtag";
 
@@ -18,7 +19,9 @@ const App = () => {
         content="Mostrar eventos"
       />
 
-      <About />
+      <About>
+        <AboutLink className="-light" />
+      </About>
     </main>
   );
 };
