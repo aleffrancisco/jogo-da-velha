@@ -4,6 +4,7 @@ import "./App.css";
 import Checkbox from "./objects/Checkbox";
 import About from "./objects/About";
 import AboutLink from "./objects/AboutLink";
+import IconClose from "./objects/IconClose";
 import Header from "./components/Header";
 import Hashtag from "./components/Hashtag";
 
@@ -21,6 +22,7 @@ const App = () => {
 
       <About>
         <AboutLink className="-light" />
+        <IconClose />
       </About>
     </main>
   );
